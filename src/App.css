@@ -38,7 +38,6 @@ body {
   src: URL('fonts/Woodplank-JRlE.ttf') format('truetype');
 }
 
-@import '../node_modules/aos/dist/aos.css';
 @import './css/animations.css';
 @import './css/navbar.css';
 @import './css/footer.css';
