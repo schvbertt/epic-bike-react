@@ -1,0 +1,86 @@
+/* NAVBAR */
+/* FIX LINKS */
+@media (min-width: 1200px) {
+  .fix-logo {
+    margin-left: 7%;
+  }
+  .align-menu {
+    margin-right: 15%;
+  }
+  .link-fix {
+    margin-right: 50px;
+  }
+}
+@media (max-width: 1200px) {
+  .active-item {
+    width: 220px;
+  }
+}
+@media (max-width: 992px) {
+  .display-logo {
+    display: none !important;
+  }
+}
+/* LOGO */
+.logo {
+  width: 220px;
+  height: 110px;
+}
+.logo-img {
+  width: 150px;
+  height: 45px;
+}
+.logo-img-text {
+  position: absolute;
+  top: 12px;
+  left: 22px;
+  font-family: WoodPlank;
+  font-size: 1.4rem;
+  color: black;
+  text-shadow: -1px 0 black, 0 1px black;
+  cursor: default;
+}
+
+/* NAVBAR COLOR */
+.navbar-light {
+    background-color: #000000;
+    border-bottom: 1px solid var(--grey) ;
+    opacity: 0.2;
+}
+/* NAVBAR LINKS COLOR */
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link.active {
+  color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: gold;
+}
+.active-item {
+  color: gold !important;
+  background-color: var(--grey);
+  border-radius: 20px;
+  padding: 10px;
+}
+/* HAMBURGER ICON */
+.navbar-toggler {
+    background-color: var(--grey);
+}
+button:focus {
+    outline: none;
+}
+.menu-font {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.fa-bars {
+  color: white;
+  background-color: var(--grey);
+}
+.activeStyle {
+  color: gold;
+  background-color: green;
+}
+/* END OF NAVBAR */

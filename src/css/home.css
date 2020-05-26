@@ -1,0 +1,136 @@
+@import './arrow.css';
+
+/* HOME LOGO */
+@media (min-width: 0px) {
+  .main-pic-text {
+    margin-left: 30px;
+    margin-bottom: 60px;
+  }
+  .main-pic {
+    height: 800px;
+  }
+}
+@media (min-width: 576px) {
+  .main-pic-text {
+    margin-left: 30px;
+    margin-bottom: 80px;
+  }
+  .main-pic {
+    height: 850px;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-pic-text {
+    margin-left: 35px;
+    margin-bottom: 100px;
+  }
+  .main-pic {
+    height: 900px;
+  }
+}
+
+@media (min-width: 992px) {
+  .main-pic-text {
+    margin-left: 40px;
+    margin-bottom: 150px;
+  }
+  .main-pic {
+    height: 1000px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-pic-text {
+    margin-left: 45px;
+    margin-bottom: 150px;
+  }
+  .main-pic {
+    height: 1000px;
+  }
+}
+/* HOME */
+.custom-home {
+  background-color: var(--grey);
+  border-radius: 10px;
+  padding: 4px;
+  color: gold;
+  transform: translate(-9px, -3px);
+}
+.main-color-fix {
+  color: gold!important;
+}
+.fix-main-pic {
+  padding-right: 0;
+  padding-left: 0;
+}
+.main-pic {
+  position: relative;
+  background-image: url('../img/home-images/homepage.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+}
+.main-pic-text {
+  display: flex;
+}
+.positionimg {
+  position: relative;
+}
+.fix-margin {
+  top: 10px;
+}
+.text1  {
+  width: 350px;
+  height: 115px;
+  opacity: 0.8;
+}
+.text11 {
+  position: absolute;
+  text-align: center;
+  color: black;
+  top: 7px;
+  left: 60px;
+  font-family: DriftWood;
+  text-shadow: -1px 0 black, 0 1px black;
+  font-size: 2.4rem;
+  cursor: default;
+}
+.text2  {
+  width: 380px;
+  height: 60px;
+  opacity: 0.8;
+}
+.text22 {
+  position: absolute;
+  text-align: center;
+  color: black;
+  top: 14px;
+  left: 55px;
+  font-family: Woodplank;
+  text-shadow: -1px 0 black, 0 1px black;
+  font-size: 2rem;
+  cursor: default;
+}
+.fix-l {
+  position: absolute;
+  width: 14px;
+  height: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
+  left: 271px;
+  top: 28px;
+  transform: rotate(-31deg);
+  box-shadow: 1px 1px black;
+}
+.flex-items-inside {
+  display: flex;
+  flex-direction: column;
+}
+.first-header {
+  margin-top: 70px;
+}
+/* END OF HOME */

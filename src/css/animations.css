@@ -1,0 +1,117 @@
+/* GLOBAL */
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+  
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+  }
+  .animatedUp {
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+  .fadeInUp {
+    animation-name: fadeInUp;
+    opacity: 0;
+  }
+/* GLOBAL */
+  @keyframes fadeInDown {
+    from {
+        transform: translate3d(0,-40px,0)
+    }
+  
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+  }
+  .animatedDown {
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+  .fadeInDown {
+    animation-name: fadeInDown;
+    opacity: 0;
+  }
+
+/* NAVBAR */
+  @keyframes fadeInDownNavbar {
+    from {
+        transform: translate3d(0,-40px,0)
+    }
+  
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 0.75
+    }
+  }
+  .animatedDownNavbar {
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+  .fadeInDownNavbar {
+    animation-name: fadeInDownNavbar;
+    opacity: 0;
+  }
+  /* HOMEPAGE */
+  /* IMG */
+  @keyframes fadeInDownHomeImg {
+    from {
+        opacity: 0;
+    }
+  
+    to {
+        opacity: 1
+    }
+  }
+  .animatedDownHomeImg {
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+  }
+  .fadeInDownHomeImg {
+    animation-name: fadeInDownHomeImg;
+    opacity: 0;
+  }
+  /* TEXT */
+  @keyframes fadeInDownHomeText {
+    from {
+        transform: translate3d(-40px,0,0)
+    }
+  
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+  }
+  .animatedDownHomeText {
+    animation-delay: 0.7s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+  .fadeInDownHomeText {
+    animation-name: fadeInDownHomeText;
+    opacity: 0;
+  }
+  /* ARROW */
+  @keyframes fadeInDownHomeArrow {
+    from {
+        transform: translate3d(0,-40px,0)
+    }
+  
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+  }
+  .animatedDownHomeArrow {
+    animation-delay: 1s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+  .fadeInDownHomeArrow {
+    animation-name: fadeInDownHomeArrow;
+    opacity: 0;
+  }

@@ -1,0 +1,84 @@
+/* SERVICE */
+@media (max-width: 768px) {
+    .icon-fix {
+      margin-top: 60px;
+    }
+  }
+.suspension-icon {
+    margin-right: -25px;
+}
+.custom-wrench {
+  background-color: var(--grey);
+  border-radius: 10px;
+  padding: 5px;
+  color: gold;
+  transform: translate(-7px, -3px);
+}
+.card {
+  border: 2px solid var(--grey);
+  border-radius: 0.5rem;
+}
+.card-header {
+    text-align: center;
+    color: white;
+    background-color: var(--grey);
+}
+.card-body {
+  background-color: black;
+  color: white;
+}
+.head-service {
+  font-size: 1rem;
+  background-color: var(--grey);
+}
+.head-service span {
+  color: gold;
+}
+.items-inside {
+  margin: auto;
+  margin-top: 2rem;
+}
+.custom-list {
+  list-style-type: none;
+}
+.custom-bullet {
+  background-color: var(--grey);
+  color: green;
+  border-radius: 5px;
+  transform: translate(-8px, -1px);
+}
+.price {
+  font-size: 1rem;
+}
+.custom-exc {
+  background-color: green;
+  border-radius: 5px;
+  padding: 1px;
+  color: var(--grey);
+  transform: translate(-7px, -1px);
+}
+.custom-plus {
+  background-color: green;
+  border-radius: 5px;
+  padding: 1px;
+  color:var(--grey);
+  transform: translate(-7px, -1px);
+}
+.custom-angle {
+  background-color: green;
+  border-radius: 5px;
+  padding: 1px;
+  color:var(--grey);
+  transform: translate(-7px, -1px);
+}
+.title-height {
+  font-weight: 600;
+}
+.custom-alert {
+  background-color: var(--grey)
+}
+.custom-alert2 {
+  width: 100%;
+  font-weight: 800;
+}
+/* END OF SERVICE */

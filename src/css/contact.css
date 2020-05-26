@@ -1,0 +1,7 @@
+.custom-phone {
+    background-color: var(--grey);
+    border-radius: 10px;
+    padding: 5px;
+    color: gold;
+    transform: translate(-7px, -3px);
+}

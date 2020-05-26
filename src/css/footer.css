@@ -1,0 +1,14 @@
+/* FOOTER */
+.footer {
+    color: white;
+    background-color: black;
+    border-top: 1px solid var(--grey);
+}
+/* SOCIAL MEDIA */
+.social-media {
+    vertical-align: text-top;
+}
+.open-hours {
+    line-height: 1.05rem;
+}
+/* END OF FOOTER */
