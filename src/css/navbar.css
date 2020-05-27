@@ -1,4 +1,7 @@
 /* NAVBAR */
+/* HAMBURGER */
+@import './hamburger.css';
+
 /* FIX LINKS */
 @media (min-width: 1200px) {
   .fix-logo {
@@ -58,14 +61,15 @@
   color: gold;
 }
 .active-item {
-  color: gold !important;
-  background-color: var(--grey);
+  color: var(--grey) !important;
+  background-color: gold;
   border-radius: 20px;
   padding: 10px;
 }
 /* HAMBURGER ICON */
 .navbar-toggler {
     background-color: var(--grey);
+    padding: 0px;
 }
 button:focus {
     outline: none;
