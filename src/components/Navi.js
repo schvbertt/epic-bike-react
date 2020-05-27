@@ -23,7 +23,7 @@ export default function Navi() {
                         <img src={Texture} className='logo-img' alt='texture'/>
                         <h3 className='logo-img-text'>EPIC LIFE</h3>
                     </div>
-            <Navbar.Toggle aria-controls='navbar' className='ml-auto'>
+            <Navbar.Toggle aria-controls='navbar'>
                 <FaBars className='fa-bars' size={30} />
             </Navbar.Toggle>
             <Navbar.Collapse id='navbar'>

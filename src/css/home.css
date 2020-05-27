@@ -1,61 +1,11 @@
 @import './arrow.css';
-
-/* HOME LOGO */
-@media (min-width: 0px) {
-  .main-pic-text {
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .main-pic {
-    height: 800px;
-  }
-}
-@media (min-width: 576px) {
-  .main-pic-text {
-    margin-left: 30px;
-    margin-bottom: 80px;
-  }
-  .main-pic {
-    height: 850px;
-  }
-}
-
-@media (min-width: 768px) {
-  .main-pic-text {
-    margin-left: 35px;
-    margin-bottom: 100px;
-  }
-  .main-pic {
-    height: 900px;
-  }
-}
-
-@media (min-width: 992px) {
-  .main-pic-text {
-    margin-left: 40px;
-    margin-bottom: 150px;
-  }
-  .main-pic {
-    height: 1000px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .main-pic-text {
-    margin-left: 45px;
-    margin-bottom: 150px;
-  }
-  .main-pic {
-    height: 1000px;
-  }
-}
 /* HOME */
 .custom-home {
-  background-color: var(--grey);
+  background-color: gold;
   border-radius: 10px;
-  padding: 4px;
-  color: gold;
-  transform: translate(-9px, -3px);
+  padding: 5px;
+  color: var(--grey);
+  transform: translate(-7px, -3px);
 }
 .main-color-fix {
   color: gold!important;
@@ -68,14 +18,12 @@
   position: relative;
   background-image: url('../img/home-images/homepage.png');
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
+  background-size: cover;
   display: flex;
   flex-direction: column-reverse;
   width: 100%;
-}
-.main-pic-text {
-  display: flex;
+  height: 800px;
 }
 .positionimg {
   position: relative;
