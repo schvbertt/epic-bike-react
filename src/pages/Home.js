@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import {Helmet, HelmetProvider} from "react-helmet-async"
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
@@ -16,6 +16,9 @@ import Texture from '../img/texture.png'
 import {FaHome} from 'react-icons/fa'
 
 export default function Home() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
         <>
         <HelmetProvider>

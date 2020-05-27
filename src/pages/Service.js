@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import {Helmet, HelmetProvider} from "react-helmet-async"
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
@@ -21,6 +21,9 @@ import {FaWrench, FaBicycle, FaAngleDoubleDown} from 'react-icons/fa'
 
 
 export default function Service() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
         <>
         <HelmetProvider>
