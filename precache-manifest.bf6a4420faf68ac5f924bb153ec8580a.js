@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a77390e1b7361dfb4d8e51e3eedcd3fd",
+    "revision": "3077514fa01778d0a2bc572ef38e1a51",
     "url": "/epic-bike-react/index.html"
   },
   {
-    "revision": "79a713b181d3865a85ce",
+    "revision": "e6c4bc2605728b39add7",
     "url": "/epic-bike-react/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "220b749784d406af58a5",
-    "url": "/epic-bike-react/static/css/main.77b0efe0.chunk.css"
+    "revision": "78126b32894de402aaef",
+    "url": "/epic-bike-react/static/css/main.34109984.chunk.css"
   },
   {
-    "revision": "79a713b181d3865a85ce",
-    "url": "/epic-bike-react/static/js/2.9cc9dbef.chunk.js"
+    "revision": "e6c4bc2605728b39add7",
+    "url": "/epic-bike-react/static/js/2.e2d9c6ec.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/epic-bike-react/static/js/2.9cc9dbef.chunk.js.LICENSE.txt"
+    "url": "/epic-bike-react/static/js/2.e2d9c6ec.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "220b749784d406af58a5",
-    "url": "/epic-bike-react/static/js/main.bde0052d.chunk.js"
+    "revision": "78126b32894de402aaef",
+    "url": "/epic-bike-react/static/js/main.efd4166e.chunk.js"
   },
   {
     "revision": "9077cb198108d6f0a55b",
@@ -40,6 +40,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/epic-bike-react/static/media/bike-service.e84f4f94.jpg"
   },
   {
+    "revision": "729af06bf29fc3868927baa89641c4f3",
+    "url": "/epic-bike-react/static/media/contact-img.729af06b.jpg"
+  },
+  {
     "revision": "c575f24d4d69786a83ff50c724f0e38e",
     "url": "/epic-bike-react/static/media/homepage.c575f24d.png"
   },
@@ -50,10 +54,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d0bae3f412cbc02d49ecbda6c106aa45",
     "url": "/epic-bike-react/static/media/sus-service.d0bae3f4.jpg"
-  },
-  {
-    "revision": "4d28bc1456a55cd2690730efeca848c8",
-    "url": "/epic-bike-react/static/media/texture-reverse.4d28bc14.png"
   },
   {
     "revision": "bf97d957884effc33ccd30194f8b3d7d",

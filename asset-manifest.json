@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/epic-bike-react/static/css/main.77b0efe0.chunk.css",
-    "main.js": "/epic-bike-react/static/js/main.bde0052d.chunk.js",
-    "main.js.map": "/epic-bike-react/static/js/main.bde0052d.chunk.js.map",
+    "main.css": "/epic-bike-react/static/css/main.34109984.chunk.css",
+    "main.js": "/epic-bike-react/static/js/main.efd4166e.chunk.js",
+    "main.js.map": "/epic-bike-react/static/js/main.efd4166e.chunk.js.map",
     "runtime-main.js": "/epic-bike-react/static/js/runtime-main.03b666fe.js",
     "runtime-main.js.map": "/epic-bike-react/static/js/runtime-main.03b666fe.js.map",
     "static/css/2.af3c1da9.chunk.css": "/epic-bike-react/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.9cc9dbef.chunk.js": "/epic-bike-react/static/js/2.9cc9dbef.chunk.js",
-    "static/js/2.9cc9dbef.chunk.js.map": "/epic-bike-react/static/js/2.9cc9dbef.chunk.js.map",
+    "static/js/2.e2d9c6ec.chunk.js": "/epic-bike-react/static/js/2.e2d9c6ec.chunk.js",
+    "static/js/2.e2d9c6ec.chunk.js.map": "/epic-bike-react/static/js/2.e2d9c6ec.chunk.js.map",
     "index.html": "/epic-bike-react/index.html",
-    "precache-manifest.bdff1c0ac6280a5c0470f4dc63db5749.js": "/epic-bike-react/precache-manifest.bdff1c0ac6280a5c0470f4dc63db5749.js",
+    "precache-manifest.bf6a4420faf68ac5f924bb153ec8580a.js": "/epic-bike-react/precache-manifest.bf6a4420faf68ac5f924bb153ec8580a.js",
     "service-worker.js": "/epic-bike-react/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/epic-bike-react/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.77b0efe0.chunk.css.map": "/epic-bike-react/static/css/main.77b0efe0.chunk.css.map",
-    "static/js/2.9cc9dbef.chunk.js.LICENSE.txt": "/epic-bike-react/static/js/2.9cc9dbef.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/epic-bike-react/static/media/texture-reverse.4d28bc14.png",
+    "static/css/main.34109984.chunk.css.map": "/epic-bike-react/static/css/main.34109984.chunk.css.map",
+    "static/js/2.e2d9c6ec.chunk.js.LICENSE.txt": "/epic-bike-react/static/js/2.e2d9c6ec.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/epic-bike-react/static/media/Woodplank-JRlE.22e1d335.ttf",
     "static/media/bike-service.jpg": "/epic-bike-react/static/media/bike-service.e84f4f94.jpg",
+    "static/media/contact-img.jpg": "/epic-bike-react/static/media/contact-img.729af06b.jpg",
     "static/media/homepage.png": "/epic-bike-react/static/media/homepage.c575f24d.png",
     "static/media/logo.png": "/epic-bike-react/static/media/logo.937b6430.png",
     "static/media/sus-service.jpg": "/epic-bike-react/static/media/sus-service.d0bae3f4.jpg",
@@ -24,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.03b666fe.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.9cc9dbef.chunk.js",
-    "static/css/main.77b0efe0.chunk.css",
-    "static/js/main.bde0052d.chunk.js"
+    "static/js/2.e2d9c6ec.chunk.js",
+    "static/css/main.34109984.chunk.css",
+    "static/js/main.efd4166e.chunk.js"
   ]
 }
