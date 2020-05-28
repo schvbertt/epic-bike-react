@@ -10,7 +10,6 @@
 .main-pic {
   position: relative;
   background-image: url('../img/home-images/homepage.png');
-  background-color: white;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -20,74 +19,16 @@
 }
 
 
-
-
 .margin-fix {
   margin-top: 10px;
 }
 .main-text-block {
-  position: absolute;
   display: block;
   bottom: 90px;
 }
 
-
-/* HOME IMAGES */
-.img11 {
-  position: relative;
-  display: inline-block;
-  width: 370px;
-  height: 120px;
-}
-.img22 {
-  position: relative;
-  display: inline-block;
-  width: 350px;
-  height: 60px;
-}
-
 /* HOME TEXT */
-.text11 {
- position: absolute;
- display: inline-block;
- color: white;
- font-family: DriftWood;
- font-size: 2.4rem;
- color: black !important;
- text-shadow: -1px 0 black, 0 1px black;
- top: 12px;
- left: 40px;
- cursor: default;
-}
-.text11 span {
-  margin-left: 20px;
-}
-.text22 {
-  position: absolute;
-  display: inline-block;
-  color: white;
-  font-family: WoodPlank;
-  font-size: 2rem;
-  color: black !important;
-  text-shadow: -1px 0 black, 0 1px black;
-  top: 144px;
-  left: 40px;
-  cursor: default;
-}
 
-
-
-.fix-l {
-  position: absolute;
-  width: 14px;
-  height: 5px;
-  border: 1px solid black;
-  border-radius: 10px;
-  left: 256px;
-  top: 157px;
-  transform: rotate(-31deg);
-  /* box-shadow: 1px 1px black; */
-}
 @media (max-width: 576px) {
   .main-text-block {
     margin: 0;
@@ -95,7 +36,7 @@
   .fix-l {
     width: 14px;
     height: 5px;
-    border: 1px solid black;
+    border: 1px solid darkgreen;
     border-radius: 10px;
     left: 216px;
     top: 158px;

@@ -1,5 +1,4 @@
 import React, {useEffect} from 'react'
-import {Helmet, HelmetProvider} from "react-helmet-async"
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -15,14 +14,10 @@ import {BsClockFill} from 'react-icons/bs'
 export default function Contact() {
     useEffect(() => {
         window.scrollTo(0, 0)
+        document.title = 'Epic Bike - Kontakt'
       }, [])
     return (
         <>
-        <HelmetProvider>
-        <Helmet>
-            <title>Epic Bike - Kontakt</title>
-        </Helmet>
-        </HelmetProvider>
         <div className='blank-div' />
         <Container className='fix-top'>
             <Row className='animatedDown fadeInDown'>
@@ -42,7 +37,7 @@ export default function Contact() {
                     {/* INFO1 */}
                     <div className='textc1'>
                         <MdLocationOn size={40} className='icon-contact1' />
-                        <p className='text-contact'>
+                        <div className='text-contact'>
                             <strong>
                                 EPIC BIKE
                             </strong>
@@ -58,22 +53,22 @@ export default function Contact() {
                             <p><br />
                             <strong>NIP: </strong>937-25-37-043
                             </p>
-                        </p>
+                        </div>
                     </div>
                     {/* INFO2 */}
                     <div className='textc2'>
                         <BsClockFill size={40} className='icon-contact2' />
                         
-                        <p className='text-contact'>
-                            <div>
+                        <div className='text-contact'>
                             <span className='open-hours'>
                                 <strong>GODZINY OTWARCIA:</strong>
-                            </span>
-                            </div><br />
+                            </span><br />
+                            <div className='text-distance1'>
                             Od poniedziałku do piątku: <strong>10 - 18</strong><br />
                             Sobota: <strong>9 - 14</strong><br />
                             Niedziela: <strong>NIECZYNNE</strong>
-                        </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 </Col>

@@ -1,5 +1,4 @@
 import React, {useEffect} from 'react'
-import {Helmet, HelmetProvider} from "react-helmet-async"
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -15,7 +14,6 @@ import Suspension3 from '../components/Suspension3'
 // IMAGES
 import Image1 from '../img/service-images/bike-service.jpg'
 import Image2 from '../img/service-images/sus-service.jpg'
-import Texture from '../img/texture.png'
 
 //ICONS
 import {FaWrench, FaBicycle, FaAngleDoubleDown} from 'react-icons/fa'
@@ -24,14 +22,10 @@ import {FaWrench, FaBicycle, FaAngleDoubleDown} from 'react-icons/fa'
 export default function Service() {
     useEffect(() => {
         window.scrollTo(0, 0)
+        document.title = 'Epic Bike - Cennik'
       }, [])
     return (
         <>
-        <HelmetProvider>
-        <Helmet>
-            <title>Epic Bike - Cennik</title>
-        </Helmet>
-        </HelmetProvider>
         <div className='blank-div' />
         <Container className='fix-top'>
             <Row className='animatedDown fadeInDown'>
