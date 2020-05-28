@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/epic-bike-react/static/css/main.fa69dbf6.chunk.css",
-    "main.js": "/epic-bike-react/static/js/main.d1ef0a36.chunk.js",
-    "main.js.map": "/epic-bike-react/static/js/main.d1ef0a36.chunk.js.map",
+    "main.css": "/epic-bike-react/static/css/main.de1ef591.chunk.css",
+    "main.js": "/epic-bike-react/static/js/main.e2eb2196.chunk.js",
+    "main.js.map": "/epic-bike-react/static/js/main.e2eb2196.chunk.js.map",
     "runtime-main.js": "/epic-bike-react/static/js/runtime-main.03b666fe.js",
     "runtime-main.js.map": "/epic-bike-react/static/js/runtime-main.03b666fe.js.map",
     "static/css/2.af3c1da9.chunk.css": "/epic-bike-react/static/css/2.af3c1da9.chunk.css",
     "static/js/2.e2d9c6ec.chunk.js": "/epic-bike-react/static/js/2.e2d9c6ec.chunk.js",
     "static/js/2.e2d9c6ec.chunk.js.map": "/epic-bike-react/static/js/2.e2d9c6ec.chunk.js.map",
     "index.html": "/epic-bike-react/index.html",
-    "precache-manifest.65a938243ead0404cf94f4f269022480.js": "/epic-bike-react/precache-manifest.65a938243ead0404cf94f4f269022480.js",
+    "precache-manifest.2048495c7b2d2163a375437ee5c3d7ff.js": "/epic-bike-react/precache-manifest.2048495c7b2d2163a375437ee5c3d7ff.js",
     "service-worker.js": "/epic-bike-react/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/epic-bike-react/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.fa69dbf6.chunk.css.map": "/epic-bike-react/static/css/main.fa69dbf6.chunk.css.map",
+    "static/css/main.de1ef591.chunk.css.map": "/epic-bike-react/static/css/main.de1ef591.chunk.css.map",
     "static/js/2.e2d9c6ec.chunk.js.LICENSE.txt": "/epic-bike-react/static/js/2.e2d9c6ec.chunk.js.LICENSE.txt",
     "static/media/App.css": "/epic-bike-react/static/media/Woodplank-JRlE.22e1d335.ttf",
     "static/media/bike-service.jpg": "/epic-bike-react/static/media/bike-service.e84f4f94.jpg",
@@ -26,7 +26,7 @@
     "static/js/runtime-main.03b666fe.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.e2d9c6ec.chunk.js",
-    "static/css/main.fa69dbf6.chunk.css",
-    "static/js/main.d1ef0a36.chunk.js"
+    "static/css/main.de1ef591.chunk.css",
+    "static/js/main.e2eb2196.chunk.js"
   ]
 }
