@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "56fc5869912ee388a20d566a65853f15",
+    "revision": "d37f3a827c3ca86d798cfcd2048aa863",
     "url": "/epic-bike-react/index.html"
   },
   {
-    "revision": "f03a11bc010323f58905",
+    "revision": "e6924cfd92ef50bfe59c",
     "url": "/epic-bike-react/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "34cd3f46f4f08d4d7dc4",
-    "url": "/epic-bike-react/static/css/main.e2110b18.chunk.css"
+    "revision": "fe6862227314f2d0f3c2",
+    "url": "/epic-bike-react/static/css/main.42249ec9.chunk.css"
   },
   {
-    "revision": "f03a11bc010323f58905",
-    "url": "/epic-bike-react/static/js/2.fe1e37ad.chunk.js"
+    "revision": "e6924cfd92ef50bfe59c",
+    "url": "/epic-bike-react/static/js/2.08f246ef.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/epic-bike-react/static/js/2.fe1e37ad.chunk.js.LICENSE.txt"
+    "url": "/epic-bike-react/static/js/2.08f246ef.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "34cd3f46f4f08d4d7dc4",
-    "url": "/epic-bike-react/static/js/main.72ef5d3c.chunk.js"
+    "revision": "fe6862227314f2d0f3c2",
+    "url": "/epic-bike-react/static/js/main.d53f9157.chunk.js"
   },
   {
     "revision": "9077cb198108d6f0a55b",
