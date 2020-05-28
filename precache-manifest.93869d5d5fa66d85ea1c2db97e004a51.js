@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cadf0de7f595bf5e1f1a08ddef61a7e8",
+    "revision": "edf74f039b018f607cd38f77d4557748",
     "url": "/epic-bike-react/index.html"
   },
   {
