@@ -33,6 +33,9 @@
   width: 150px;
   height: 45px;
 }
+.positionimg {
+  position: relative;
+}
 .logo-img-text {
   position: absolute;
   top: 12px;
@@ -63,8 +66,8 @@
 .active-item {
   color: var(--grey) !important;
   background-color: gold;
-  border-radius: 20px;
-  padding: 10px;
+  border-radius: 30px;
+  padding: 5px;
 }
 /* HAMBURGER ICON */
 .navbar-toggler {

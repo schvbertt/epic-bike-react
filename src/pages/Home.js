@@ -28,7 +28,24 @@ export default function Home() {
         </HelmetProvider>
         <Container fluid className='fix-main-pic animatedDownHomeImg fadeInDownHomeImg'>
             <div className='main-pic'>
-                <div className='main-pic-text'>
+                <div className='main-text-block fadeInDownHomeText animatedDownHomeText'>
+                    {/* TEXT 2 */}
+                    <div>
+                        <img src={Texture} alt='serwis rowerowy' className='img11' />
+                        <h1 className='text11'>
+                            <span>
+                            SERWIS
+                            </span><br />
+                            ROWEROWY
+                            </h1>
+                        <Arrow className='animatedDownHomeArrow fadeInDownHomeArrow'/>
+                    </div>
+                    {/* TEXT 1 */}
+                    <div className='margin-fix'>
+                        <img src={Texture} alt='serwis rowerowy' className='img22'/>
+                        <h2 className='text22'>BIELSKO - BIALA</h2>
+                        <div className='fix-l' />
+                    </div>
                 </div>
             </div>
         </Container>
@@ -37,16 +54,13 @@ export default function Home() {
             <Row className='animatedUp fadeInUp'>
                 <Col md={12}>
                     <div>
-                    <h4 className='h4 text-center text-white'>
-                        <FaHome size={33} className='custom-home' />
-                        O NAS
-                    </h4>
+                    <h2 className='heading-text text-center text-white'>
+                        <FaHome size={30} className='custom-icon' />
+                        <strong>O NAS</strong>
+                    </h2>
                     </div>
                     <div className='border-block' />
                 </Col>
-            </Row>
-            <Row>
-                
             </Row>
         </Container>
         </>

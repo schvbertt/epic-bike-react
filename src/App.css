@@ -23,6 +23,18 @@ body {
   margin-bottom: 20px !important;
   margin: auto;
 }
+/* HEADINGS */
+.heading-text {
+  font-size: 1.6rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+.custom-icon {
+  background-color: gold;
+  border-radius: 10px;
+  padding: 5px;
+  color: var(--grey);
+  transform: translate(-7px, -3px);
+}
 /* FIX NAVBAR */
 .blank-div {
   width: 100%;

@@ -15,6 +15,7 @@ import Suspension3 from '../components/Suspension3'
 // IMAGES
 import Image1 from '../img/service-images/bike-service.jpg'
 import Image2 from '../img/service-images/sus-service.jpg'
+import Texture from '../img/texture.png'
 
 //ICONS
 import {FaWrench, FaBicycle, FaAngleDoubleDown} from 'react-icons/fa'
@@ -36,36 +37,36 @@ export default function Service() {
             <Row className='animatedDown fadeInDown'>
                 <Col md={12}>
                     <div>
-                    <h1 className='h4 text-center text-white'>
-                        <FaWrench size={33} className='custom-wrench' />
-                        CENNIK SERWISOWY
+                    <h1 className='heading-text text-center text-white'>
+                        <FaWrench size={30} className='custom-icon' />
+                        <strong>CENNIK SERWISOWY</strong>
                     </h1>
                     </div>
                     <div className='border-block' />
                 </Col>
             </Row>
-            <Row className='animatedUp fadeInUp'>
+            <Row className='animatedUp fadeInUp mt-3'>
             {/* BIKE */}
-            <Col md={6}>
+            <Col lg={6}>
             <div className='d-block text-center text-white'>
-                <Image src={Image1} thumbnail className='service-images' alt='bike-service' />
-                <p className='supertext'>
-                    <FaBicycle />
-                    ROWER
-                </p>
+                <Image src={Image1} thumbnail className='service-images' alt='serwis roweru' />
+                <h2 className='supertext'>
+                    <FaBicycle size={30} className='service-icons-left' />
+                    <strong>ROWER</strong>
+                </h2>
             </div>
             <Bike1 />
             <Bike2 />
             </Col>
 
             {/* SUSPENSION */}
-            <Col md={6}>
+            <Col lg={6}>
             <div className='d-block text-center text-white icon-fix'>
-                <Image src={Image2} thumbnail className='service-images' alt='bike-service' />
-                <p className='supertext'>
-                    <FaAngleDoubleDown size={25} />
-                    ZAWIESZENIE
-                </p>
+                <Image src={Image2} thumbnail className='service-images' alt='serwis amortyzacji i zawieszenia' />
+                <h2 className='supertext'>
+                    <FaAngleDoubleDown size={30} className='service-icons-left'/>
+                    <strong>ZAWIESZENIE</strong>
+                </h2>
             </div>
             <Suspension1 />
             <Suspension2 />

@@ -13,11 +13,7 @@ import Texture from '../img/texture.png'
 export default function Navi() {
     const hamburgerClose = () => {
         const hamburgerIcon = document.querySelector('.hamburger')
-        if (hamburgerIcon.classList.contains('is-active') === true) {
-            hamburgerIcon.classList.remove('is-active')
-        } else {
-            hamburgerIcon.classList.add('is-active')
-        }
+        hamburgerIcon.classList.toggle('is-active')
     }
     return (
         <>
@@ -34,17 +30,17 @@ export default function Navi() {
             <Navbar.Toggle onClick={hamburgerClose} aria-controls='navbar'>
                 {/* <FaBars className='fa-bars' size={30} /> */}
                 {/* HAMBURGER */}
-                <div class="hamburger hamburger--3dxy">
-                    <div class="hamburger-box">
-                    <div class="hamburger-inner">
+                <div className="hamburger hamburger--3dxy">
+                    <div className="hamburger-box">
+                    <div className="hamburger-inner">
                     </div>
                     </div>
                 </div>
             </Navbar.Toggle>
             <Navbar.Collapse id='navbar'>
                 <Nav className='text-center align-items-center ml-auto align-menu'>
-                    <LinkContainer exact to='/' activeClassName='active-item'>
-                        <Nav.Link onClick={hamburgerClose}
+                    <LinkContainer onClick={hamburgerClose} exact to='/' activeClassName='active-item'>
+                        <Nav.Link 
                         className='d-flex align-items-center justify-content-center link-fix
                         mb-xl-0 mb-lg-3 mb-md-3 mb-sm-3 mb-3 
                         mt-xl-0 mt-lg-3 mt-md-3 mt-sm-3 mt-4'>
@@ -53,8 +49,8 @@ export default function Navi() {
                         </Nav.Link>
                     </LinkContainer>
 
-                    <LinkContainer exact to='/cennik' activeClassName='active-item'>
-                        <Nav.Link onClick={hamburgerClose}
+                    <LinkContainer onClick={hamburgerClose} exact to='/cennik' activeClassName='active-item'>
+                        <Nav.Link 
                         className='d-flex align-items-center justify-content-center link-fix
                         mb-xl-0 mb-lg-3 mb-md-3 mb-sm-3 mb-3'>
                             <span className='menu-font'>CENNIK</span>
@@ -62,8 +58,8 @@ export default function Navi() {
                         </Nav.Link>
                     </LinkContainer>
 
-                    <LinkContainer exact to='/kontakt' activeClassName='active-item'>
-                        <Nav.Link onClick={hamburgerClose}
+                    <LinkContainer onClick={hamburgerClose} exact to='/kontakt' activeClassName='active-item'>
+                        <Nav.Link 
                         className='d-flex align-items-center justify-content-center
                         mb-xl-0 mb-lg-3 mb-md-3 mb-sm-3 mb-3'>
                             <span className='menu-font'>KONTAKT</span>

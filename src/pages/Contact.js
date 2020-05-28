@@ -3,9 +3,14 @@ import {Helmet, HelmetProvider} from "react-helmet-async"
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import Image from 'react-bootstrap/Image'
 
+// IMAGES 
+import ContactTip from '../img/contact-images/contact-img.jpg'
 // ICONS
 import {FaPhone} from 'react-icons/fa'
+import {MdLocationOn} from 'react-icons/md'
+import {BsClockFill} from 'react-icons/bs'
 
 export default function Contact() {
     useEffect(() => {
@@ -23,9 +28,9 @@ export default function Contact() {
             <Row className='animatedDown fadeInDown'>
                 <Col md={12}>
                     <div>
-                    <h1 className='h4 text-center text-white'>
-                        <FaPhone size={33} className='custom-phone' />
-                        KONTAKT
+                    <h1 className='heading-text text-center text-white'>
+                        <FaPhone size={30} className='custom-icon' />
+                        <strong>KONTAKT</strong>
                     </h1>
                     </div>
                     <div className='border-block' />
@@ -33,28 +38,60 @@ export default function Contact() {
             </Row>
             <Row className='animatedUp fadeInUp mt-3'>
                 <Col md={6}>
-                <div>
-                    <p className='text-center text-white'>
-                    <strong>
-                        EPIC BIKE
-                    </strong>
-                    <br />
-                        ul. Cieszyńska 362
-                    <br />
-                        43-382&nbsp;
-                    <strong>
-                        Bielsko-Biała
-                    </strong>
-                    <br />
-                    &nbsp;+48 513 313 987
-                    </p>
+                <div className='main-block-text'>
+                    {/* INFO1 */}
+                    <div className='textc1'>
+                        <MdLocationOn size={40} className='icon-contact1' />
+                        <p className='text-contact'>
+                            <strong>
+                                EPIC BIKE
+                            </strong>
+                            <br />
+                                ul. Cieszyńska 362
+                            <br />
+                                43-382&nbsp;
+                            <strong>
+                                Bielsko-Biała
+                            </strong>
+                            <br />
+                            +48 513 313 987
+                            <p><br />
+                            <strong>NIP: </strong>937-25-37-043
+                            </p>
+                        </p>
+                    </div>
+                    {/* INFO2 */}
+                    <div className='textc2'>
+                        <BsClockFill size={40} className='icon-contact2' />
+                        
+                        <p className='text-contact'>
+                            <div>
+                            <span className='open-hours'>
+                                <strong>GODZINY OTWARCIA:</strong>
+                            </span>
+                            </div><br />
+                            Od poniedziałku do piątku: <strong>10 - 18</strong><br />
+                            Sobota: <strong>9 - 14</strong><br />
+                            Niedziela: <strong>NIECZYNNE</strong>
+                        </p>
+                    </div>
                 </div>
                 </Col>
 
                 <Col md={6} className='mt-lg-0 mt-md-5 mt-sm-5 mt-5'>
-                <div>
-                <iframe className='w-100' title='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2574.803389163793!2d18.986015315591125!3d49.80856387939205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716a0504ea67e97%3A0x773caae2ec15528d!2sCieszy%C5%84ska%20362%2C%2043-303%20Bielsko-Bia%C5%82a!5e0!3m2!1spl!2spl!4v1586178453993!5m2!1spl!2spl" width="600" height="450" frameBorder="0" style={{border: '0'}} allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe>
-                </div>
+                    <Image thumbnail src={ContactTip} className='contact-img' alt='kontakt epic-bike' />
+                </Col>
+            </Row>
+            <Row className='map-distance animatedUp fadeInUp'>
+                <Col md={{span: 12, offset: 0}}>
+                <iframe 
+                className='map'
+                title='map' 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2574.803389163793!2d18.986015315591125!3d49.80856387939205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716a0504ea67e97%3A0x773caae2ec15528d!2sCieszy%C5%84ska%20362%2C%2043-303%20Bielsko-Bia%C5%82a!5e0!3m2!1spl!2spl!4v1586178453993!5m2!1spl!2spl" 
+                frameBorder="0" 
+                allowFullScreen="" 
+                aria-hidden="false" 
+                tabIndex="0"></iframe>
                 </Col>
             </Row>
         </Container>

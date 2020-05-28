@@ -37,8 +37,8 @@ export default function custom() {
                 <Col md={3} className='text-center mt-3'>
                     <p className='h5'>GODZINY OTWARCIA</p>
                     <hr className='custom-hr'/>
-                    <div className='open-hours'>
-                        <small>
+                    <div className='open-hours1'>
+                        <span>
                             Poniedziałek: 10 - 18
                             <br />
                             Wtorek: 10 - 18
@@ -52,14 +52,14 @@ export default function custom() {
                             Sobota: 9 - 14
                             <br />
                             Niedziela: NIECZYNNE
-                        </small>
+                        </span>
                     </div>
                 </Col>
                 <Col md={3} className='text-center mt-3'>
                     <p className='h5'>KONTAKT</p>
                     <hr className='custom-hr'/>
                     <span className='text-center'>
-                    <small>
+                    <span>
                     <strong>
                         EPIC BIKE
                     </strong>
@@ -74,7 +74,7 @@ export default function custom() {
                     <FaPhone />
                     &nbsp;+48 513 313 987
                     <br />
-                    </small>
+                    </span>
                     </span>
                 </Col>
             </Row>
