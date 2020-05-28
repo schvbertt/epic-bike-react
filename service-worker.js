@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/epic-bike-react/precache-manifest.c100e13ef58e30c602e31404a39f9a3a.js"
+  "/epic-bike-react/precache-manifest.76d1ea53e523597987bc2f82f90ca003.js"
 );
 
 self.addEventListener('message', (event) => {
