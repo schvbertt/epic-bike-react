@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/epic-bike-react/static/css/main.47d38706.chunk.css",
-    "main.js": "/epic-bike-react/static/js/main.d53f9157.chunk.js",
-    "main.js.map": "/epic-bike-react/static/js/main.d53f9157.chunk.js.map",
+    "main.js": "/epic-bike-react/static/js/main.c1d1b54a.chunk.js",
+    "main.js.map": "/epic-bike-react/static/js/main.c1d1b54a.chunk.js.map",
     "runtime-main.js": "/epic-bike-react/static/js/runtime-main.03b666fe.js",
     "runtime-main.js.map": "/epic-bike-react/static/js/runtime-main.03b666fe.js.map",
     "static/css/2.af3c1da9.chunk.css": "/epic-bike-react/static/css/2.af3c1da9.chunk.css",
     "static/js/2.08f246ef.chunk.js": "/epic-bike-react/static/js/2.08f246ef.chunk.js",
     "static/js/2.08f246ef.chunk.js.map": "/epic-bike-react/static/js/2.08f246ef.chunk.js.map",
     "index.html": "/epic-bike-react/index.html",
-    "precache-manifest.93869d5d5fa66d85ea1c2db97e004a51.js": "/epic-bike-react/precache-manifest.93869d5d5fa66d85ea1c2db97e004a51.js",
+    "precache-manifest.f8ad0cb8c86f91e3d2f2866c971f0a4f.js": "/epic-bike-react/precache-manifest.f8ad0cb8c86f91e3d2f2866c971f0a4f.js",
     "service-worker.js": "/epic-bike-react/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/epic-bike-react/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.47d38706.chunk.css.map": "/epic-bike-react/static/css/main.47d38706.chunk.css.map",
@@ -26,6 +26,6 @@
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.08f246ef.chunk.js",
     "static/css/main.47d38706.chunk.css",
-    "static/js/main.d53f9157.chunk.js"
+    "static/js/main.c1d1b54a.chunk.js"
   ]
 }
