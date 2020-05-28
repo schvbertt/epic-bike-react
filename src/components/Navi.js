@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 
 // IMAGES
-import Logo from '../img/logo.png'
+import Logo from '../img/logo-transparent.png'
 import Texture from '../img/texture.png'
 
 // ICONS

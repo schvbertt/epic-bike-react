@@ -39,6 +39,16 @@ export default function Service() {
                     <div className='border-block' />
                 </Col>
             </Row>
+            <Row>
+                <Col md={12}>
+                <div className='service-icons1'>
+                    <a href='#bike' className='iconed1'>
+                    </a>
+                    <a href='#sus' className='iconed1'>
+                    </a>
+                </div>
+                </Col>
+            </Row>
             <Row className='animatedUp fadeInUp mt-3'>
             {/* BIKE */}
             <Col lg={6}>
@@ -52,9 +62,8 @@ export default function Service() {
             <Bike1 />
             <Bike2 />
             </Col>
-
             {/* SUSPENSION */}
-            <Col lg={6}>
+            <Col lg={6} id='sus'>
             <div className='d-block text-center text-white icon-fix'>
                 <Image src={Image2} thumbnail className='service-images' alt='serwis amortyzacji i zawieszenia' />
                 <h2 className='supertext'>

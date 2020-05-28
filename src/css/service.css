@@ -135,4 +135,23 @@
     letter-spacing: 5px;
   }
 }
+
+.service-icons1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+}
+.iconed1 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+  margin-left: 30px;
+}
+.iconed2 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+  margin-right: 30px;
+}
 /* END OF SERVICE */
