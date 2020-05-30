@@ -1,5 +1,4 @@
 import React from 'react'
-import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Carousel from 'react-bootstrap/Carousel'
 
@@ -26,6 +25,7 @@ export default function Home2() {
             <Carousel.Item>
                 <img
                 src={ImgHome1}
+                alt='serwis'
                 className='d-block w-100'
                 />
             </Carousel.Item>
@@ -33,6 +33,7 @@ export default function Home2() {
             <Carousel.Item>
                 <img
                 src={ImgHome3}
+                alt='serwis'
                 className='d-block w-100'
                 />
             </Carousel.Item>
@@ -40,6 +41,7 @@ export default function Home2() {
             <Carousel.Item>
                 <img
                 src={ImgHome2}
+                alt='serwis'
                 className='d-block w-100'
                 />
             </Carousel.Item>

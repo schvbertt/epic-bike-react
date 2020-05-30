@@ -38,6 +38,45 @@ body {
   color: var(--grey);
   transform: translate(-7px, -3px);
 }
+/* COOKIES */
+.cookies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  padding: 7px;
+  background-color: black;
+  border-top: 1px solid gold;
+}
+.cookies-text {
+  margin-left: 30px;
+}
+.cookies-button {
+  margin-left: 20px;
+  color: gold;
+  background-color: var(--grey);
+  border: 1px solid gold;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+}
+.cookies-button:hover {
+  color: var(--grey);
+  background-color: gold;
+}
+.cookies-icon {
+  width: 40px;
+  height: 40px;
+  color: gold;
+  background-color: var(--grey);
+  border: 1px solid gold;
+  border-radius: 20px;
+  padding: 6px;
+  margin-right: 5px;
+}
 /* FIX NAVBAR */
 .blank-div {
   width: 100%;

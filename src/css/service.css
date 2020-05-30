@@ -14,10 +14,10 @@
 .card-body {
   background-color: black;
   color: white;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
 }
 .head-service {
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   background-color: var(--grey);
   line-height: 1.5;
   white-space: pre-wrap;
@@ -39,7 +39,7 @@
   transform: translate(-8px, -1px);
 }
 .price {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 .custom-exc {
   background-color: green;
@@ -138,7 +138,7 @@
   .hide-alert {
     display: none;
   }
-  #sus {
+  #zawieszenie {
     margin-top: 100px;
   }
 }

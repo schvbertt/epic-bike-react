@@ -1,14 +1,10 @@
 import React from 'react'
 import Col from 'react-bootstrap/Col'
-import Row from 'react-bootstrap/Row'
-import Image from 'react-bootstrap/Image'
 
 // ICONS
 import {FaBicycle} from 'react-icons/fa'
 import {FaAngleDoubleDown} from 'react-icons/fa'
 
-// IMAGES
-import Image1 from '../img/service-images/bike-service.jpg'
 
 export default function MobileService() {
 
