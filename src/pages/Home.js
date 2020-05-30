@@ -3,6 +3,8 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Home1 from '../components/Home1'
+import Home2 from '../components/Home2'
+import CheckUs from '../components/CheckUs'
 
 // IMAGES
 import Img1 from '../img/text1.png'
@@ -19,6 +21,7 @@ export default function Home() {
 
     return (
         <>
+        {/* HOME IMG */}
         <Container fluid className='fix-main-pic animatedDownHomeImg fadeInDownHomeImg'>
             <div className='main-pic'>
                 <div className='main-text-block animatedDownHomeText fadeInDownHomeText'>
@@ -33,8 +36,9 @@ export default function Home() {
             </div>
         </Container>
 
-        <Container id='home' className='first-header'>
-            <Row className='animatedUp fadeInUp'>
+        {/* HOME ICONS */}
+        <Container id='home' className='animatedUp fadeInUp first-header'>
+            <Row>
                 <Col md={12}>
                     <div>
                     <h2 className='heading-text'>
@@ -45,8 +49,34 @@ export default function Home() {
                     <div className='border-block' />
                 </Col>
             </Row>
+
             <Row className='animatedUp fadeInUp mt-3'>
                 <Home1 />
+            </Row>
+
+        </Container>
+
+        {/* HOME TXT */}
+        <Container className='animatedUp fadeInUp first-header'>
+            <Row>
+                <Col md={12}>
+                    <div>
+                    <h2 className='heading-text'>
+                        <FaHome size={30} className='custom-icon' />
+                        <strong>DLACZEGO MY?</strong>
+                    </h2>
+                    </div>
+                    <div className='border-block' />
+                </Col>
+            </Row>
+
+            <Row className='animatedUp fadeInUp mt-3'>
+                <Home2 />
+            </Row>
+
+            {/* CHECK US */}
+            <Row className='animatedDown fadeInDown mt-5'>
+                <CheckUs />
             </Row>
         </Container>
         </>

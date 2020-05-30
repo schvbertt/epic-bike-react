@@ -21,6 +21,7 @@
 .text-contact {
     color: white;
     padding: 1.1rem;
+    font-size: 1.2rem;
     border-radius: 10px;
 }
 .textc1 {
@@ -55,11 +56,11 @@
     padding: 6px;
 }
 .open-hours {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 .text-distance1 {
-    margin-top: 10px;
+    margin-top: 1rem;
 }
 .opening {
-    font-size: 0.75rem;
+    font-size: 1rem;
 }

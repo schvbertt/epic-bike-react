@@ -3,7 +3,7 @@ import Col from 'react-bootstrap/Col'
 
 // ICONS
 import {BsWrench} from 'react-icons/bs'
-import {AiOutlineFieldTime} from 'react-icons/ai'
+import {GiSpeedometer} from 'react-icons/gi'
 import {MdDirectionsBike} from 'react-icons/md'
 
 export default function Home1() {
@@ -23,7 +23,7 @@ export default function Home1() {
 
         {/* ICON 3 */}
         <Col sm={4} className='home-icons'>
-            <AiOutlineFieldTime className='home-icons1'/>
+            <GiSpeedometer className='home-icons1'/>
             <p><strong>DOGODNE<br />TERMINY</strong></p>
         </Col>
         </>

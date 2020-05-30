@@ -15,7 +15,7 @@ import {FaAngleDoubleDown} from 'react-icons/fa'
 export default function Service2() {
     return (
         <>
-        <Col lg={6} id='sus'>
+        <Col lg={6} id='zawieszenie'>
             <div className='d-block text-center text-white'>
                 <Image src={Image2} thumbnail className='service-images' alt='serwis amortyzacji i zawieszenia' />
                 <h2 className='supertext'>

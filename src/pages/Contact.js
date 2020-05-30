@@ -73,7 +73,7 @@ export default function Contact() {
                                 <strong>GODZINY OTWARCIA:</strong>
                             </span><br />
                             <div className='text-distance1'>
-                            Poniedziałek - piątek: <Badge variant='warning opening'>10 - 18</Badge><br />
+                            Pon - pt: <Badge variant='warning opening'>10 - 18</Badge><br />
                             Sobota: <Badge variant='warning opening'>9 - 14</Badge><br />
                             Niedziela: <Badge variant='warning opening'>NIECZYNNE</Badge>
                             </div>

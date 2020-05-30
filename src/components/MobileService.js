@@ -2,7 +2,6 @@ import React from 'react'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import Image from 'react-bootstrap/Image'
-import ServiceAlert from '../components/ServiceAlert'
 
 // ICONS
 import {FaBicycle} from 'react-icons/fa'
@@ -15,18 +14,21 @@ export default function MobileService() {
 
     return (
         <>
-        <Col md={12} className='animatedDown fadeInDown hide-icons'>
-            <div className='service-icons1'>
-                <a href='#bike' className='iconed1'>
+        <Col>
+            <div className='icon-styles'>
+                <a href='#rower' className='iconed'>
                     <FaBicycle size={55} />
                 </a>
-                <a href='#sus' className='iconed2'>
+                <p>ROWER</p>
+            </div>
+        </Col>
+        <Col>
+            <div className='icon-styles'>
+                <a href='#zawieszenie' className='iconed'>
                     <FaAngleDoubleDown size={55} />
                 </a>
+                <p>ZAWIESZENIE</p>
             </div>
-        <Row className='mobile-alert mt-4'>
-        <ServiceAlert/>
-        </Row>
         </Col>
         </>
     )

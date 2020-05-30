@@ -14,7 +14,7 @@ import {FaBicycle} from 'react-icons/fa'
 export default function Service1() {
     return (
         <>
-        <Col lg={6} id='bike'>
+        <Col lg={6} id='rower'>
             <div className='d-block text-center text-white'>
                 <Image src={Image1} thumbnail className='service-images' alt='serwis roweru' />
                 <h2 className='supertext'>

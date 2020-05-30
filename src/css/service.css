@@ -14,9 +14,10 @@
 .card-body {
   background-color: black;
   color: white;
+  font-size: 1.25rem;
 }
 .head-service {
-  font-size: 1rem;
+  font-size: 1.1rem;
   background-color: var(--grey);
   line-height: 1.5;
   white-space: pre-wrap;
@@ -38,7 +39,7 @@
   transform: translate(-8px, -1px);
 }
 .price {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 .custom-exc {
   background-color: green;
@@ -65,11 +66,13 @@
   font-weight: 600;
 }
 .custom-alert {
-  background-color: var(--grey)
+  background-color: var(--grey);
+  font-size: 1rem;
 }
 .custom-alert2 {
   width: 100%;
   font-weight: 800;
+  font-size: 1.1rem;
 }
 .service-images {
   width: 100%;
@@ -127,7 +130,7 @@
 
 @media (max-width: 992px) {
   .hide-icons {
-    display: block;
+    display: flex;
   }
   .mobile-alert {
     display: block;
@@ -140,46 +143,34 @@
   }
 }
 
-.service-icons1 {
+.icon-styles {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-right: 30px;
+  text-align: center;
 }
-.iconed1 {
+.icon-styles p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1.5rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+.iconed {
   width: 100px;
   height: 100px;
   border: 4px solid gold;
   background-color: var(--grey);
   color: gold;
   border-radius: 10px;
-  margin-left: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.iconed1:hover {
+.iconed:hover {
   border: 4px solid var(--grey);
   background-color: gold;
   color: var(--grey);
   flex-grow: 0.1;
-}
-.iconed2:hover {
-  border: 4px solid var(--grey);
-  background-color: gold;
-  color: var(--grey);
-  flex-grow: 0.1;
-}
-.iconed2 {
-  width: 100px;
-  height: 100px;
-  border: 4px solid gold;
-  color: gold;
-  background-color: var(--grey);
-  border-radius: 10px;
-  margin-left: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 /* END OF SERVICE */

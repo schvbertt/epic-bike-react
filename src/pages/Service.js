@@ -32,8 +32,11 @@ export default function Service() {
                     <div className='border-block' />
                 </Col>
             </Row>
-            <Row className='mt-4'>
+            <Row className='mt-4 animatedDown fadeInDown hide-icons'>
                 <MobileService />
+            </Row>
+            <Row className='mobile-alert mt-4'>
+                <ServiceAlert />
             </Row>
             <Row className='mt-4 animatedUp fadeInUp'>
             {/* BIKE */}
