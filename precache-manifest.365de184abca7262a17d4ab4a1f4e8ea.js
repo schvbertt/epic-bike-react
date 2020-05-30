@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "410c6e928efbb3ba05283a1ac7a14d5e",
+    "revision": "8ccdbdb99748f5cfa7d8d856bb2764ed",
     "url": "/epic-bike-react/index.html"
   },
   {
-    "revision": "e6924cfd92ef50bfe59c",
+    "revision": "586ad9ba875357e9cf58",
     "url": "/epic-bike-react/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "a5380d6e88191517e5d2",
-    "url": "/epic-bike-react/static/css/main.47d38706.chunk.css"
+    "revision": "cee0bd99509c34239310",
+    "url": "/epic-bike-react/static/css/main.055c3c2c.chunk.css"
   },
   {
-    "revision": "e6924cfd92ef50bfe59c",
-    "url": "/epic-bike-react/static/js/2.08f246ef.chunk.js"
+    "revision": "586ad9ba875357e9cf58",
+    "url": "/epic-bike-react/static/js/2.8a4fe17b.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/epic-bike-react/static/js/2.08f246ef.chunk.js.LICENSE.txt"
+    "url": "/epic-bike-react/static/js/2.8a4fe17b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a5380d6e88191517e5d2",
-    "url": "/epic-bike-react/static/js/main.c1d1b54a.chunk.js"
+    "revision": "cee0bd99509c34239310",
+    "url": "/epic-bike-react/static/js/main.585f9138.chunk.js"
   },
   {
     "revision": "9077cb198108d6f0a55b",
@@ -48,12 +48,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/epic-bike-react/static/media/homepage.c575f24d.png"
   },
   {
-    "revision": "937b6430b43ef1883c40a5a421da5f56",
-    "url": "/epic-bike-react/static/media/logo.937b6430.png"
+    "revision": "e98d1cd126c6b32a5e80a525845cd15c",
+    "url": "/epic-bike-react/static/media/logo-transparent.e98d1cd1.png"
   },
   {
     "revision": "d0bae3f412cbc02d49ecbda6c106aa45",
     "url": "/epic-bike-react/static/media/sus-service.d0bae3f4.jpg"
+  },
+  {
+    "revision": "0391ea33152cb9a1977fe39c09c61fdd",
+    "url": "/epic-bike-react/static/media/text1.0391ea33.png"
+  },
+  {
+    "revision": "a7a0666521b03aacf2e9c36695fe6f8a",
+    "url": "/epic-bike-react/static/media/text2.a7a06665.png"
   },
   {
     "revision": "bf97d957884effc33ccd30194f8b3d7d",
