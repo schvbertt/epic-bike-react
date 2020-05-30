@@ -7,8 +7,6 @@ import Nav from 'react-bootstrap/Nav'
 import Logo from '../img/logo-transparent.png'
 import Texture from '../img/texture.png'
 
-// ICONS
-// import {FaBars} from 'react-icons/fa'
 
 export default function Navi() {
     const hamburgerClose = () => {
@@ -27,10 +25,9 @@ export default function Navi() {
                         <img src={Texture} className='logo-img' alt='texture'/>
                         <h3 className='logo-img-text'>EPIC LIFE</h3>
                     </div>
-            <Navbar.Toggle onClick={hamburgerClose} aria-controls='navbar'>
-                {/* <FaBars className='fa-bars' size={30} /> */}
+            <Navbar.Toggle aria-controls='navbar'>
                 {/* HAMBURGER */}
-                <div className="hamburger hamburger--3dxy">
+                <div onClick={hamburgerClose} className="hamburger hamburger--3dxy">
                     <div className="hamburger-box">
                     <div className="hamburger-inner">
                     </div>

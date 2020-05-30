@@ -56,7 +56,7 @@ export default function Contact() {
                             </span>
                             <br />
                             <span>
-                            +48 513 313 987
+                            <strong>tel.</strong> +48 513 313 987
                             </span>
                             <br />
                             <p>

@@ -25,7 +25,9 @@ body {
 }
 /* HEADINGS */
 .heading-text {
-  font-size: 1.6rem;
+  font-size: 2rem;
+  text-align: center;
+  color: white;
   font-family: 'Courier New', Courier, monospace;
 }
 .custom-icon {

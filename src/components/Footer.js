@@ -58,7 +58,7 @@ export default function custom() {
                 <Col md={3} className='text-center mt-3'>
                     <p className='h5'>KONTAKT</p>
                     <hr className='custom-hr'/>
-                    <span className='text-center'>
+                    <span className='text-center contactt'>
                     <span>
                     <strong>
                         EPIC BIKE
