@@ -94,7 +94,7 @@ export default function Home() {
                     <div className='border-block' />
                 </Col>
             </Row>
-            <Row>
+            <Row className='logo-carousel-margin'>
                 <LogoCarousel />
             </Row>
         </Container>

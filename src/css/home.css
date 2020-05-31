@@ -146,13 +146,13 @@
   cursor: pointer;
 }
 /* END OF HOME */
-.slick-slider {
-  margin-bottom: 0.5rem;
+.logo-carousel-margin {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
 }
 .carousel-container {
   margin: auto;
   width: 100%;
-  margin-top: 2rem;
 }
 .carousel-img {
   display: flex !important;
@@ -163,7 +163,7 @@
   margin-left: 10px;
 }
 .slick-prev {
-  left: -50px !important;
+  left: -48px !important;
 }
 .slick-prev:before {
   color: gold !important;
