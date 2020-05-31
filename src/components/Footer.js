@@ -4,12 +4,12 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
 // IMAGES
-import RockShox from '../img/logos/rock-shox.png'
-import Marzocchi from '../img/logos/marzocchi.png'
-import Parktool from '../img/logos/parktool.png'
-import Fox from '../img/logos/fox.png'
-import Bos from '../img/logos/bos.png'
-import Dartmoor from '../img/logos/dartmoor.png'
+// import RockShox from '../img/logos/rock-shox.png'
+// import Marzocchi from '../img/logos/marzocchi.png'
+// import Parktool from '../img/logos/parktool.png'
+// import Fox from '../img/logos/fox.png'
+// import Bos from '../img/logos/bos.png'
+// import Dartmoor from '../img/logos/dartmoor.png'
 
 // ICONS
 import {FaFacebookSquare, FaPhone} from 'react-icons/fa'
@@ -21,7 +21,7 @@ export default function custom() {
             <Container>
             <Row>
                 <Col md={6}>
-                    <Container className='text-center mt-3'>
+                    {/* <Container className='text-center mt-3'>
                         <Row className='align-items-center justify-content-center'>
                             <img src={Fox} alt='fox' />
                             <img src={RockShox} alt='Rock-Shox' />
@@ -32,7 +32,7 @@ export default function custom() {
                             <img src={Parktool} alt='Parktool' />
                             <img src={Dartmoor} alt='Dartmoor' />
                         </Row>
-                    </Container>
+                    </Container> */}
                 </Col>
                 <Col md={3} className='text-center mt-3'>
                     <p className='h5'>GODZINY OTWARCIA</p>

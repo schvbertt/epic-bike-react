@@ -23,8 +23,8 @@ export default function Suspension1() {
 
                 <div className='items-inside'>
                 <div className='text-center'>
-                    <p className='price title-height'>
-                        <FaAngleDoubleDown size={20} className='custom-angle' />
+                    <p className='sus-header title-height'>
+                        <FaAngleDoubleDown size={25} className='custom-angle' />
                         Amortyzacja przednia:
                     </p>
                 </div>
@@ -42,13 +42,13 @@ export default function Suspension1() {
 
                 <div className='text-center mt-4'>
                     <div>
-                    <span>Jednopółkowy - </span>
+                    <span className='sus-header'>Jednopółkowy - </span>
                     <Badge variant='success' className='price'>
                         120 - 180 zł
                     </Badge>
                     </div>
                     <div className='mt-2 ml-2'>
-                    <span>Dwupółkowy - </span>
+                    <span className='sus-header'>Dwupółkowy - </span>
                     <Badge variant='success' className='price'>
                         150 - 230 zł
                     </Badge>
@@ -56,8 +56,8 @@ export default function Suspension1() {
                 </div>
 
                 <div className='text-center mt-5'>
-                    <p className='price title-height'>
-                        <FaAngleDoubleDown size={20} className='custom-angle' />
+                    <p className='sus-header title-height'>
+                        <FaAngleDoubleDown size={25} className='custom-angle' />
                         Amortyzacja tylnia (dampery):
                     </p>
                 </div>

@@ -33,20 +33,25 @@
   list-style-type: none;
 }
 .custom-bullet {
-  background-color: green;
+  background-color: red;
   color: white;
   border-radius: 5px;
   transform: translate(-8px, -1px);
 }
 .price {
-  font-size: 1rem;
+  font-size: 1.05rem;
+  color: black;
+}
+.sus-header {
+  font-size: 1.1rem;
+  color: white;
 }
 .custom-exc {
   background-color: green;
   border-radius: 5px;
   padding: 1px;
   color: var(--grey);
-  transform: translate(-7px, -1px);
+  transform: translate(-7px, -2px);
 }
 .custom-plus {
   background-color: green;
@@ -60,7 +65,7 @@
   border-radius: 5px;
   padding: 1px;
   color:var(--grey);
-  transform: translate(-7px, -1px);
+  transform: translate(-7px, -2px);
 }
 .title-height {
   font-weight: 600;

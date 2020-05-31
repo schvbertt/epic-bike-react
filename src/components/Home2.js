@@ -20,6 +20,7 @@ export default function Home2() {
         interval={3000}
         prevIcon={<GrCaretPrevious aria-hidden="true" className='carousel-icons' />}
         nextIcon={<GrCaretNext aria-hidden="true" className='carousel-icons' />}
+        fade={true}
         >
 
             <Carousel.Item>

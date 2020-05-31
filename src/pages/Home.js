@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col'
 import Home1 from '../components/Home1'
 import Home2 from '../components/Home2'
 import CheckUs from '../components/CheckUs'
+import LogoCarousel from '../components/LogoCarousel'
 
 // IMAGES
 import Img1 from '../img/text1.png'
@@ -73,10 +74,28 @@ export default function Home() {
             <Row className='animatedUp fadeInUp mt-3'>
                 <Home2 />
             </Row>
+        </Container>
 
-            {/* CHECK US */}
-            <Row className='animatedDown fadeInDown mt-5'>
-                <CheckUs />
+        {/* CHECK US */}
+        <Container className='animatedDown fadeInDown first-header'>
+            <CheckUs />
+        </Container>
+
+        {/* LOGO CAROUSEL */}
+        <Container className='animatedDown fadeInDown mt-5'>
+            <Row>
+                <Col md={12}>
+                    <div>
+                    <h2 className='heading-text'>
+                        <FaHome size={30} className='custom-icon' />
+                        <strong>NASI PARTNERZY</strong>
+                    </h2>
+                    </div>
+                    <div className='border-block' />
+                </Col>
+            </Row>
+            <Row>
+                <LogoCarousel />
             </Row>
         </Container>
         </>

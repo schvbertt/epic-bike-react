@@ -25,8 +25,8 @@ export default function Bike2() {
 
                 <div className='items-inside'>
                     <div className='text-center'>
-                    <p className='price title-height'>
-                        <FaExclamation className='custom-exc' size={20}/>
+                    <p className='sus-header title-height'>
+                        <FaExclamation className='custom-exc' size={25}/>
                         Wszystkie usługi z serwisu ogólnego, czyli:
                     </p>
                     </div>
@@ -36,8 +36,8 @@ export default function Bike2() {
                     </div>
 
                     <div className='text-center mt-4'>
-                    <p className='price title-height'>
-                        <FaPlus className='custom-plus' size={20} />
+                    <p className='sus-header title-height'>
+                        <FaPlus className='custom-plus' size={25} />
                         Dodatkowo:
                     </p>
                     </div>

@@ -48,9 +48,16 @@ body {
   padding: 7px;
   background-color: black;
   border-top: 1px solid gold;
+  text-align: center;
 }
 .cookies-text {
-  margin-left: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cookies-text p {
+  margin-top: 15px;
 }
 .cookies-button {
   margin-left: 20px;
@@ -75,21 +82,13 @@ body {
   border: 1px solid gold;
   border-radius: 20px;
   padding: 6px;
-  margin-right: 5px;
+  margin-right: 15px;
+  margin-top: 5px;
 }
 /* FIX NAVBAR */
 .blank-div {
   width: 100%;
   height: 147px;
-}
-/* FONTS */
-@font-face {
-  font-family: 'DriftWood';
-  src: URL('fonts/Driftwood.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'WoodPlank';
-  src: URL('fonts/Woodplank-JRlE.ttf') format('truetype');
 }
 
 @import './css/animations.css';
