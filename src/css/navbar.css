@@ -3,6 +3,25 @@
 @import './hamburger.css';
 
 /* FIX LINKS */
+@media (max-width: 1200px) {
+  .active-item {
+    width: 220px;
+  }
+  .link-1 {
+    margin-top: 0.9rem;
+  }
+  .link-2 {
+    margin-top: 0.9rem;
+  }
+  .link-3 {
+    margin-top: 0.9rem;
+  }
+  .link-4 {
+    margin-top: 0.9rem;
+    margin-bottom: 0.9rem;
+  }
+}
+
 @media (min-width: 1200px) {
   .fix-logo {
     margin-left: 7%;
@@ -10,18 +29,17 @@
   .align-menu {
     margin-right: 15%;
   }
-  .link-fix {
-    margin-right: 50px;
+  .link-1 {
+    margin-right: 3rem;
   }
-}
-@media (max-width: 1200px) {
-  .active-item {
-    width: 220px;
+  .link-2 {
+    margin-right: 3rem;
   }
-}
-@media (max-width: 992px) {
-  .display-logo {
-    display: none !important;
+  .link-3 {
+    margin-right: 3rem;
+  }
+  .link-4 {
+    margin-right: 0rem;
   }
 }
 /* LOGO */

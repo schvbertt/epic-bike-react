@@ -123,7 +123,7 @@
   font-size: 1.1rem;
 }
 .home2-text svg {
-  color: green;
+  color: gold;
   background-color: var(--grey);
   border: 1px solid gold;
   border-radius: 10px;
@@ -144,6 +144,14 @@
   font-size: 1.1rem;
   text-align: center;
   cursor: pointer;
+  background-color: var(--grey);
+  border: 1px solid gold;
+  color: gold;
+}
+.custom-alert3:hover {
+  background-color: gold;
+  color: var(--grey);
+  border: 1px solid var(--grey);
 }
 /* END OF HOME */
 .logo-carousel-margin {

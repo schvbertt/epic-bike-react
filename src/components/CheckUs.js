@@ -8,7 +8,7 @@ export default function CheckUs() {
         <>
         <Col md={12}>
         <LinkContainer to='/cennik'>
-            <Alert variant='success' className='custom-alert3'>
+            <Alert className='custom-alert3'>
                 SPRAWDŹ NASZĄ OFERTĘ
             </Alert>
         </LinkContainer>

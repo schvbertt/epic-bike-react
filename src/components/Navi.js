@@ -16,17 +16,14 @@ export default function Navi() {
     return (
         <>
         <Navbar expand='xl' collapseOnSelect={true} fixed='top' className='animatedDownNavbar fadeInDownNavbar'>
+            {/* LOGO */}
             <LinkContainer to='/'>
                 <Navbar.Brand className='d-flex fix-logo'>
                     <img src={Logo} alt='logo' className='logo' />
                 </Navbar.Brand>
             </LinkContainer>
-                    <div className='positionimg display-logo'>
-                        <img src={Texture} className='logo-img' alt='texture'/>
-                        <h3 className='logo-img-text'>EPIC LIFE</h3>
-                    </div>
+            {/* HAMBURGER */}
             <Navbar.Toggle aria-controls='navbar'>
-                {/* HAMBURGER */}
                 <div onClick={hamburgerClose} className="hamburger hamburger--3dxy">
                     <div className="hamburger-box">
                     <div className="hamburger-inner">
@@ -34,41 +31,36 @@ export default function Navi() {
                     </div>
                 </div>
             </Navbar.Toggle>
+            {/* NAVI LINKS */}
             <Navbar.Collapse id='navbar'>
                 <Nav className='text-center align-items-center ml-auto align-menu'>
                     <LinkContainer onClick={hamburgerClose} exact to='/' activeClassName='active-item'>
                         <Nav.Link 
-                        className='d-flex align-items-center justify-content-center link-fix
-                        mb-xl-0 mb-lg-3 mb-md-3 mb-sm-3 mb-3 
-                        mt-xl-0 mt-lg-3 mt-md-3 mt-sm-3 mt-4'>
+                        className='link-1'>
                             <span className='menu-font'>STRONA GŁÓWNA</span>
-                            <div className='div-hover' />
                         </Nav.Link>
                     </LinkContainer>
 
                     <LinkContainer onClick={hamburgerClose} exact to='/cennik' activeClassName='active-item'>
                         <Nav.Link 
-                        className='d-flex align-items-center justify-content-center link-fix
-                        mb-xl-0 mb-lg-3 mb-md-3 mb-sm-3 mb-3'>
+                        className='link-2'>
                             <span className='menu-font'>CENNIK</span>
-                            <div className='div-hover' />
+                        </Nav.Link>
+                    </LinkContainer>
+
+                    <LinkContainer onClick={hamburgerClose} exact to='/galeria' activeClassName='active-item'>
+                        <Nav.Link 
+                        className='link-3'>
+                            <span className='menu-font'>GALERIA</span>
                         </Nav.Link>
                     </LinkContainer>
 
                     <LinkContainer onClick={hamburgerClose} exact to='/kontakt' activeClassName='active-item'>
                         <Nav.Link 
-                        className='d-flex align-items-center justify-content-center
-                        mb-xl-0 mb-lg-3 mb-md-3 mb-sm-3 mb-3'>
+                        className='link-4'>
                             <span className='menu-font'>KONTAKT</span>
-                            <div className='div-hover' />
                         </Nav.Link>
                     </LinkContainer>
-
-                    {/* <Nav.Link href='https://www.facebook.com/Serwis.Epic.Bike/'
-                        className='d-flex align-items-center justify-content-center fix-link
-                        mb-xl-0 mb-lg-3 mb-md-3 mb-sm-3 mb-3'>
-                            <FaFacebookSquare size={30} />
-                    </Nav.Link> */}
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

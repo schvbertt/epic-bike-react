@@ -5,11 +5,10 @@ import Col from 'react-bootstrap/Col'
 import Home1 from '../components/Home1'
 import Home2 from '../components/Home2'
 import CheckUs from '../components/CheckUs'
-import LogoCarousel from '../components/LogoCarousel'
 
 // IMAGES
-import Img1 from '../img/text1.png'
-import Img2 from '../img/text2.png'
+import Img1 from '../img/text11.png'
+import Img2 from '../img/text22.png'
 
 // ICONS
 import {FaHome} from 'react-icons/fa'
@@ -51,10 +50,9 @@ export default function Home() {
                 </Col>
             </Row>
 
-            <Row className='animatedUp fadeInUp mt-3'>
+            <Row className='mt-3'>
                 <Home1 />
             </Row>
-
         </Container>
 
         {/* HOME TXT */}
@@ -71,7 +69,7 @@ export default function Home() {
                 </Col>
             </Row>
 
-            <Row className='animatedUp fadeInUp mt-3'>
+            <Row className='mt-3'>
                 <Home2 />
             </Row>
         </Container>
@@ -79,24 +77,6 @@ export default function Home() {
         {/* CHECK US */}
         <Container className='animatedDown fadeInDown first-header'>
             <CheckUs />
-        </Container>
-
-        {/* LOGO CAROUSEL */}
-        <Container className='animatedDown fadeInDown mt-5'>
-            <Row>
-                <Col md={12}>
-                    <div>
-                    <h2 className='heading-text'>
-                        <FaHome size={30} className='custom-icon' />
-                        <strong>NASI PARTNERZY</strong>
-                    </h2>
-                    </div>
-                    <div className='border-block' />
-                </Col>
-            </Row>
-            <Row className='logo-carousel-margin'>
-                <LogoCarousel />
-            </Row>
         </Container>
         </>
     )
