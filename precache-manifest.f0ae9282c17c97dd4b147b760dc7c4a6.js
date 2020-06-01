@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c42b46db356a6f69cdfe9580619ffaeb",
+    "revision": "5d5e12b21d24f5b405a26b7cb94d09ec",
     "url": "/epic-bike-react/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/epic-bike-react/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "ee195e84c39811635bd3",
+    "revision": "911172d2f5ecde8b9070",
     "url": "/epic-bike-react/static/css/main.5fec6e9f.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/epic-bike-react/static/js/2.c34fb829.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ee195e84c39811635bd3",
-    "url": "/epic-bike-react/static/js/main.815e6f8f.chunk.js"
+    "revision": "911172d2f5ecde8b9070",
+    "url": "/epic-bike-react/static/js/main.5227b6c3.chunk.js"
   },
   {
     "revision": "9077cb198108d6f0a55b",
@@ -60,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/epic-bike-react/static/media/sus-service.d0bae3f4.jpg"
   },
   {
-    "revision": "0c6a9039bd570fd72cf45e456cad3fde",
-    "url": "/epic-bike-react/static/media/text11.0c6a9039.png"
+    "revision": "32e12d155a871062352e1af3c7818b9c",
+    "url": "/epic-bike-react/static/media/text11.32e12d15.png"
   },
   {
     "revision": "a349c136467cd7613de9081f3c19ad98",

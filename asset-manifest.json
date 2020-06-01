@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/epic-bike-react/static/css/main.5fec6e9f.chunk.css",
-    "main.js": "/epic-bike-react/static/js/main.815e6f8f.chunk.js",
-    "main.js.map": "/epic-bike-react/static/js/main.815e6f8f.chunk.js.map",
+    "main.js": "/epic-bike-react/static/js/main.5227b6c3.chunk.js",
+    "main.js.map": "/epic-bike-react/static/js/main.5227b6c3.chunk.js.map",
     "runtime-main.js": "/epic-bike-react/static/js/runtime-main.03b666fe.js",
     "runtime-main.js.map": "/epic-bike-react/static/js/runtime-main.03b666fe.js.map",
     "static/css/2.af3c1da9.chunk.css": "/epic-bike-react/static/css/2.af3c1da9.chunk.css",
     "static/js/2.c34fb829.chunk.js": "/epic-bike-react/static/js/2.c34fb829.chunk.js",
     "static/js/2.c34fb829.chunk.js.map": "/epic-bike-react/static/js/2.c34fb829.chunk.js.map",
     "index.html": "/epic-bike-react/index.html",
-    "precache-manifest.ab8019332117db5cdc70b7f4bc0fe030.js": "/epic-bike-react/precache-manifest.ab8019332117db5cdc70b7f4bc0fe030.js",
+    "precache-manifest.f0ae9282c17c97dd4b147b760dc7c4a6.js": "/epic-bike-react/precache-manifest.f0ae9282c17c97dd4b147b760dc7c4a6.js",
     "service-worker.js": "/epic-bike-react/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/epic-bike-react/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.5fec6e9f.chunk.css.map": "/epic-bike-react/static/css/main.5fec6e9f.chunk.css.map",
@@ -22,7 +22,7 @@
     "static/media/App.css": "/epic-bike-react/static/media/homepage.c575f24d.png",
     "static/media/logo-transparent.png": "/epic-bike-react/static/media/logo-transparent.e98d1cd1.png",
     "static/media/sus-service.jpg": "/epic-bike-react/static/media/sus-service.d0bae3f4.jpg",
-    "static/media/text11.png": "/epic-bike-react/static/media/text11.0c6a9039.png",
+    "static/media/text11.png": "/epic-bike-react/static/media/text11.32e12d15.png",
     "static/media/text22.png": "/epic-bike-react/static/media/text22.a349c136.png",
     "static/media/texture.png": "/epic-bike-react/static/media/texture.bf97d957.png"
   },
@@ -31,6 +31,6 @@
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.c34fb829.chunk.js",
     "static/css/main.5fec6e9f.chunk.css",
-    "static/js/main.815e6f8f.chunk.js"
+    "static/js/main.5227b6c3.chunk.js"
   ]
 }
