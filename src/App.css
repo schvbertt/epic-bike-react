@@ -88,9 +88,10 @@ body {
 /* FIX NAVBAR */
 .blank-div {
   width: 100%;
-  height: 147px;
+  height: 130px;
 }
 
+@import './css/image-gallery.css';
 @import './css/animations.css';
 @import './css/navbar.css';
 @import './css/footer.css';

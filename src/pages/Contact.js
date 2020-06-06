@@ -31,7 +31,7 @@ export default function Contact() {
                     <div className='border-block' />
                 </Col>
             </Row>
-            <Row className='animatedUp fadeInUp mt-3'>
+            <Row className='mt-4 animatedUp fadeInUp'>
                 <Col lg={6}>
                 <div className='main-block-text'>
                     {/* INFO1 */}

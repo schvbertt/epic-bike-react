@@ -7,12 +7,12 @@ import './App.css'
 
 import Navi from './components/Navi'
 import Footer from './components/Footer'
+import Cookies from './components/Cookies'
 
 import Home from './pages/Home'
 import Service from './pages/Service'
 import Gallery from './pages/Gallery'
 import Contact from './pages/Contact'
-import Cookies from './pages/Cookies'
 
 
 function App() {
